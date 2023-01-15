@@ -205,10 +205,16 @@ li.slick-active button{
         height: 14px;
     }
 }
-@media(max-width:1024px){
+@media(max-width:720px){
     .slick-dots{
-        left: 49%;
-        top: 297px;
+        left: 26%;
+        top: 198px;
+        height: 0;
+    }
+    .slick-dots li button{
+        border: 2px solid white;
+        width: 14px;
+        height: 14px;
     }
 }
 
